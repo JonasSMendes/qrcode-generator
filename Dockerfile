@@ -12,6 +12,6 @@ ARG AWS_ACCESS_KEY_ID
 ARG AWS_SECRET_ACCESS_KEY
 
 ENV AWS_REGION=us-east-1
-ENV AWS_S3_BUCKET=qrcode-storage-jonasSmendes
+ENV AWS_S3_BUCKET=qrcode-storage-jonassmendes
 
 ENTRYPOINT ["java", "-jar", "app.jar"]
